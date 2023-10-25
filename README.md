@@ -20,7 +20,7 @@ Create a MySQL database with the name "users".
  - CREATE TABLE users(
  -   id INT PRIMARY KEY,name VARCHAR(30),email VARCHAR(30),role(30));
  -   INSERT INTO formate(name,email,role)
- -   VALUES('sharmila','sharmila@gmailcom','user'),('pavi','pavish@gmail.com','admin'),('sathya','sathisharmi@gmail.com','user');
+ -   VALUES( 1,'sharmila','sharmila@gmail.com','user'),(2,'pavi','pavish@gmail.com','admin'),(3,'sathya','sathisharmi@gmail.com','user');
 
  -   SELECT*FROM users;
  -   SELECT *FROM users WHERE id= 3;
